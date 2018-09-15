@@ -1,0 +1,7 @@
+ {this.state.images.map((image, index) => {
+          return (
+            <div key={image.id}>
+              <p>{image.id}</p>
+            </div>
+          );
+        })}
